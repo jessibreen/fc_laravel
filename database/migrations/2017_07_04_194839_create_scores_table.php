@@ -17,16 +17,16 @@ class CreateScoresTable extends Migration
             $table->increments('id');
             $table->integer('vendid')->unsigned();
 
-            $table->foreign('vendid')->references('id')->on('vendor');
+            $table->foreign('vendid')->references('id')->on('vendors');
             $table->integer('itemid')->unsigned();
 
-            $table->foreign('itemid')->references('id')->on('item');
+            $table->foreign('itemid')->references('id')->on('items');
             $table->integer('biztypeid')->unsigned();
 
-            $table->foreign('biztypeid')->references('id')->on('biztype');
+            $table->foreign('biztypeid')->references('id')->on('biztypes');
             $table->integer('farmtypeid')->unsigned();
 
-            $table->foreign('farmtypeid')->references('id')->on('farmtype');
+            $table->foreign('farmtypeid')->references('id')->on('farmtypes');
         });
     }
 

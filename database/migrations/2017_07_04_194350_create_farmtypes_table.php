@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBiztypeTable extends Migration
+class CreateFarmtypesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,9 @@ class CreateBiztypeTable extends Migration
      */
     public function up()
     {
-        Schema::create('biztype', function (Blueprint $table) {
+        Schema::create('farmtypes', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('biztype');
+            $table->string('farmtype');
         });
     }
 
@@ -26,6 +26,6 @@ class CreateBiztypeTable extends Migration
      */
     public function down()
     {
-        Schema::drop('biztype');
+        Schema::drop('farmtypes');
     }
 }

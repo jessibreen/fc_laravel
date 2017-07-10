@@ -6,7 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 use Grimzy\LaravelMysqlSpatial\Schema\Blueprint;
 
 
-class CreateVendorTable extends Migration
+class CreateVendorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -15,7 +15,7 @@ class CreateVendorTable extends Migration
      */
     public function up()
     {
-        Schema::create('vendor', function (Blueprint $table) {
+        Schema::create('vendors', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->string('street')->nullable;
@@ -36,6 +36,6 @@ class CreateVendorTable extends Migration
      */
     public function down()
     {
-        Schema::drop('vendor');
+        Schema::drop('vendors');
     }
 }

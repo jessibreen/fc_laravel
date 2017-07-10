@@ -21,13 +21,13 @@ class CreateSalesTable extends Migration
             $table->date('invoice_date');
             $table->integer('vendid')->unsigned();
 
-            $table->foreign('vendid')->references('id')->on('vendor');
+            $table->foreign('vendid')->references('id')->on('vendors');
             $table->integer('brandid')->unsigned()->nullable();
 
-            $table->foreign('brandid')->references('id')->on('brand');
+            $table->foreign('brandid')->references('id')->on('brands');
             $table->integer('itemid')->unsigned();
 
-            $table->foreign('itemid')->references('id')->on('item');
+            $table->foreign('itemid')->references('id')->on('items');
             $table->boolean('kyp')->nullable;
             $table->decimal('cost')->nullable;
         });
