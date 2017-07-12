@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class vendor extends Model
 {
-    //
+    public function county()
+    {
+        return $this->belongsTo('App\county');
+    }
 }

@@ -7,7 +7,7 @@ class CountiesTableSeeder extends CsvSeeder {
     public function __construct()
     {
         $this->table = 'counties';
-        $this->filename = base_path().'/public/counties.csv';
+        $this->filename = base_path().'/public/county.csv';
     }
 
     public function run()
