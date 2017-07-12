@@ -161,14 +161,14 @@ h6,
 }
 /* General Links */
 a {
-  color: #3c8dbc;
+  color: #1897d4;
 }
 a:hover,
 a:active,
 a:focus {
   outline: none;
   text-decoration: none;
-  color: #72afd2;
+  color: #4eb8eb;
 }
 /* Page Header */
 .page-header {
@@ -1243,7 +1243,7 @@ a:focus {
   border-color: #d2d6de;
 }
 .form-control:focus {
-  border-color: #3c8dbc;
+  border-color: #1897d4;
   box-shadow: none;
 }
 .form-control::-moz-placeholder,
@@ -1400,7 +1400,7 @@ a:focus {
 }
 .progress-bar-light-blue,
 .progress-bar-primary {
-  background-color: #3c8dbc;
+  background-color: #1897d4;
 }
 .progress-striped .progress-bar-light-blue,
 .progress-striped .progress-bar-primary {
@@ -1528,7 +1528,7 @@ a:focus {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 .box.box-primary {
-  border-top-color: #3c8dbc;
+  border-top-color: #1897d4;
 }
 .box.box-info {
   border-top-color: #00c0ef;
@@ -1589,12 +1589,12 @@ a:focus {
   color: #444;
 }
 .box.box-solid.box-primary {
-  border: 1px solid #3c8dbc;
+  border: 1px solid #1897d4;
 }
 .box.box-solid.box-primary > .box-header {
   color: #fff;
-  background: #3c8dbc;
-  background-color: #3c8dbc;
+  background: #1897d4;
+  background-color: #1897d4;
 }
 .box.box-solid.box-primary > .box-header a,
 .box.box-solid.box-primary > .box-header .btn {
@@ -1920,7 +1920,7 @@ a:focus {
   border-left-color: #00a65a;
 }
 .todo-list .primary {
-  border-left-color: #3c8dbc;
+  border-left-color: #1897d4;
 }
 .todo-list .handle {
   display: inline-block;
@@ -2215,13 +2215,13 @@ a:focus {
   background-color: #e7e7e7;
 }
 .btn-primary {
-  background-color: #3c8dbc;
-  border-color: #367fa9;
+  background-color: #1897d4;
+  border-color: #1587bd;
 }
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary.hover {
-  background-color: #367fa9;
+  background-color: #1587bd;
 }
 .btn-success {
   background-color: #00a65a;
@@ -2414,7 +2414,7 @@ a:focus {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  border-top-color: #3c8dbc;
+  border-top-color: #1897d4;
 }
 .nav-pills > li.active > a {
   font-weight: 600;
@@ -2431,7 +2431,7 @@ a:focus {
   background: transparent;
   color: #444;
   border-top: 0;
-  border-left-color: #3c8dbc;
+  border-left-color: #1897d4;
 }
 .nav-stacked > li.header {
   border-bottom: 1px solid #ddd;
@@ -2479,7 +2479,7 @@ a:focus {
   border-color: transparent;
 }
 .nav-tabs-custom > .nav-tabs > li.active {
-  border-top-color: #3c8dbc;
+  border-top-color: #1897d4;
 }
 .nav-tabs-custom > .nav-tabs > li.active > a,
 .nav-tabs-custom > .nav-tabs > li.active:hover > a {
@@ -2536,7 +2536,7 @@ a:focus {
   color: #999;
 }
 .nav-tabs-custom.tab-primary > .nav-tabs > li.active {
-  border-top-color: #3c8dbc;
+  border-top-color: #1897d4;
 }
 .nav-tabs-custom.tab-info > .nav-tabs > li.active {
   border-top-color: #00c0ef;
@@ -2841,13 +2841,13 @@ table.text-center th {
   border-left-color: #dd4b39;
 }
 .direct-chat-primary .right > .direct-chat-text {
-  background: #3c8dbc;
-  border-color: #3c8dbc;
+  background: #1897d4;
+  border-color: #1897d4;
   color: #fff;
 }
 .direct-chat-primary .right > .direct-chat-text:after,
 .direct-chat-primary .right > .direct-chat-text:before {
-  border-left-color: #3c8dbc;
+  border-left-color: #1897d4;
 }
 .direct-chat-warning .right > .direct-chat-text {
   background: #f39c12;
@@ -2951,7 +2951,7 @@ table.text-center th {
 }
 .modal-primary .modal-header,
 .modal-primary .modal-footer {
-  border-color: #307095;
+  border-color: #1376a6;
 }
 .modal-warning .modal-header,
 .modal-warning .modal-footer {
@@ -4848,14 +4848,14 @@ fieldset[disabled] .btn-yahoo.active {
   height: 34px;
 }
 .select2-container--default.select2-container--open {
-  border-color: #3c8dbc;
+  border-color: #1897d4;
 }
 .select2-dropdown {
   border: 1px solid #d2d6de;
   border-radius: 0;
 }
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  background-color: #3c8dbc;
+  background-color: #1897d4;
   color: white;
 }
 .select2-results__option {
@@ -4889,7 +4889,7 @@ fieldset[disabled] .btn-yahoo.active {
 .select2-dropdown .select2-search__field:focus,
 .select2-search--inline .select2-search__field:focus {
   outline: none;
-  border: 1px solid #3c8dbc;
+  border: 1px solid #1897d4;
 }
 .select2-container--default .select2-results__option[aria-disabled=true] {
   color: #999;
@@ -4906,14 +4906,14 @@ fieldset[disabled] .btn-yahoo.active {
   border-radius: 0;
 }
 .select2-container--default .select2-selection--multiple:focus {
-  border-color: #3c8dbc;
+  border-color: #1897d4;
 }
 .select2-container--default.select2-container--focus .select2-selection--multiple {
   border-color: #d2d6de;
 }
 .select2-container--default .select2-selection--multiple .select2-selection__choice {
-  background-color: #3c8dbc;
-  border-color: #367fa9;
+  background-color: #1897d4;
+  border-color: #1587bd;
   padding: 1px 10px;
   color: #fff;
 }
@@ -5060,12 +5060,12 @@ fieldset[disabled] .btn-yahoo.active {
   background-color: #00c0ef !important;
 }
 .bg-blue {
-  background-color: #0073b7 !important;
+  background-color: #0033a0 !important;
 }
 .bg-light-blue,
 .label-primary,
 .modal-primary .modal-body {
-  background-color: #3c8dbc !important;
+  background-color: #1897d4 !important;
 }
 .bg-green,
 .callout.callout-success,
@@ -5121,12 +5121,12 @@ fieldset[disabled] .btn-yahoo.active {
   background-color: #00a7d0 !important;
 }
 .bg-blue-active {
-  background-color: #005384 !important;
+  background-color: #00236d !important;
 }
 .bg-light-blue-active,
 .modal-primary .modal-header,
 .modal-primary .modal-footer {
-  background-color: #357ca5 !important;
+  background-color: #1583b9 !important;
 }
 .bg-green-active,
 .modal-success .modal-header,
@@ -5171,13 +5171,13 @@ fieldset[disabled] .btn-yahoo.active {
   color: #00c0ef !important;
 }
 .text-blue {
-  color: #0073b7 !important;
+  color: #0033a0 !important;
 }
 .text-black {
   color: #111 !important;
 }
 .text-light-blue {
-  color: #3c8dbc !important;
+  color: #1897d4 !important;
 }
 .text-green {
   color: #00a65a !important;
@@ -5277,15 +5277,15 @@ fieldset[disabled] .btn-yahoo.active {
   color: #fff;
 }
 .bg-light-blue-gradient {
-  background: #3c8dbc !important;
-  background: -o-linear-gradient(#67a8ce, #3c8dbc) !important;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#67a8ce', endColorstr='#3c8dbc', GradientType=0) !important;
+  background: #1897d4 !important;
+  background: -o-linear-gradient(#40b2e9, #1897d4) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40b2e9', endColorstr='#1897d4', GradientType=0) !important;
   color: #fff;
 }
 .bg-blue-gradient {
-  background: #0073b7 !important;
-  background: -o-linear-gradient(#0089db, #0073b7) !important;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0089db', endColorstr='#0073b7', GradientType=0) !important;
+  background: #0033a0 !important;
+  background: -o-linear-gradient(#003ec4, #0033a0) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003ec4', endColorstr='#0033a0', GradientType=0) !important;
   color: #fff;
 }
 .bg-aqua-gradient {
