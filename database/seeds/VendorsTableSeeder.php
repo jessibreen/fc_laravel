@@ -7,7 +7,7 @@ class VendorsTableSeeder extends CsvSeeder {
     public function __construct()
     {
         $this->table = 'vendors';
-        $this->filename = base_path().'/public/vendor.csv';
+        $this->filename = base_path().'/public/vendors.csv';
     }
 
     public function run()

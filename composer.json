@@ -6,11 +6,9 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "flynsarmy/csv-seeder": "1.*",
         "grimzy/laravel-mysql-spatial": "^1.0",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
-        "phaza/laravel-postgis": "^3.1",
         "spatie/laravel-migrate-fresh": "^1.4"
     },
     "require-dev": {
