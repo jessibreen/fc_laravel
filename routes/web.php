@@ -35,3 +35,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 
     return biztype::all();
 });*/
+
+
+Route::prefix('admin')->group(function () {
+
+    Route::get('', function(){
+        return view('adminLTE/admin_template');
+    });
+
+    Route::get('dashboard', 'DashboardController@index');
+
+
+});

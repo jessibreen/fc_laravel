@@ -13,3 +13,13 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
+
+
+//AdminLTE whatnot
+mix.less('vendor/almasaeed2010/adminlte/build/less/AdminLTE.less', 'public/adminLTE/adminLTE.css');
+mix.less('vendor/almasaeed2010/adminlte/build/less/skins/_all-skins.less', 'public/adminLTE/skins.css');
+
+mix.scripts('vendor/almasaeed2010/adminlte/bootstrap/js/bootstrap.min.js', 'public/adminLTE/js/bootstrap.min.js');
+mix.scripts('vendor/almasaeed2010/adminlte/plugins/jQuery/jquery-2.2.3.min.js', 'public/adminLTE/js/jquery-2.2.3.min.js');
+
+
